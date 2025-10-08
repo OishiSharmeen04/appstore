@@ -1,16 +1,21 @@
 import React from 'react';
+import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center bg-[#001931] text-white text-base-content  p-10 max-w-6xl mx-auto">
-  <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav>
-  <nav>
-    <div className="grid grid-flow-col gap-4">
+        <footer className="footer sm:footer-horizontal bg-[#001931] text-white p-10 max-w-6xl mx-auto">
+      
+          <aside className="grid-flow-col items-center">
+            <img 
+              src={logo} alt="" className="w-8 h-8 object-contain" />
+            <p>
+              ACME Industries Ltd.
+              <br />
+              Providing reliable tech since 1992
+            </p>
+          </aside>
+          <nav className="md:place-self-center md:justify-self-end">
+            <div className="grid grid-flow-col gap-4">
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,12 +49,10 @@ const Footer = () => {
             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
         </svg>
       </a>
-    </div>
-  </nav>
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-  </aside>
-</footer>
+            </div>
+          </nav>
+
+        </footer>
     );
 };
 
