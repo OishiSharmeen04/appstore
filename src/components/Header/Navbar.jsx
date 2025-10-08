@@ -4,7 +4,7 @@ import git from '../../assets/git.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm max-w-6xl mx-auto">
   {/* Navbar Start */}
   <div className="navbar-start">
     <div className="dropdown">
