@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 const AllApp = ({ singleApp }) => {
-  const { companyName, image, downloads, ratingAvg, id } = singleApp;
+  const { title, companyName, image, downloads, ratingAvg, id } = singleApp;
 
   const formatDownloads = (num) => {
     if (num >= 1000000) {
@@ -31,11 +31,11 @@ const AllApp = ({ singleApp }) => {
         <img
           src={image}
           alt={companyName}
-          className="rounded-xl object-cover"
+          className="object-cover"
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-lg font-semibold">{companyName}</h2>
+        <h2 className="card-title text-lg font-semibold">{title}</h2>
 
         <div className="card-actions justify-between mt-2">
           <div className="badge badge-outline bg-green-100 text-green-600"><IoMdDownload />{formatDownloads(downloads)}</div>
