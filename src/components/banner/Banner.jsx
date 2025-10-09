@@ -35,7 +35,7 @@ const Banner = () => {
       <a
         href="https://play.google.com/store/apps/"
         target="_blank"
-        className="btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center justify-center hover:shadow-lg 
+        className="btn btn-outline btn-primary  flex items-center justify-center hover:shadow-lg 
         transform transition-transform duration-300 active:scale-95
         hover:-translate-y-2 "
       >
@@ -45,7 +45,7 @@ const Banner = () => {
       <a
         href="https://www.apple.com/app-store/"
         target="_blank"
-        className="btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center justify-center hover:shadow-lg 
+        className="btn btn-outline btn-primary flex items-center justify-center hover:shadow-lg 
         transform transition-transform duration-300 active:scale-95 hover:-translate-y-2"
       >
         <img src={appstore} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
