@@ -35,8 +35,8 @@ const AllApp = ({ singleApp }) => {
         <h2 className="card-title text-lg font-semibold">{companyName}</h2>
 
         <div className="card-actions justify-between mt-2">
-          <div className="badge badge-outline"><IoMdDownload />{formatDownloads(downloads)}</div>
-          <div className="badge badge-outline"><FaStar />{ratingAvg}</div>
+          <div className="badge badge-outline bg-green-100 text-green-600"><IoMdDownload />{formatDownloads(downloads)}</div>
+          <div className="badge badge-outline bg-orange-100 text-orange-600"><FaStar />{ratingAvg}</div>
         </div>
       </div>
     </div>
