@@ -26,14 +26,9 @@ const Details = () => {
     );
   }
 
-  // Dummy Ratings Data (You can adjust dynamically later)
-  const ratingsData = [
-    { name: "5 star", count: 12000 },
-    { name: "4 star", count: 7000 },
-    { name: "3 star", count: 4000 },
-    { name: "2 star", count: 2000 },
-    { name: "1 star", count: 1000 },
-  ];
+  const ratingsData = singleApp.ratings
+    .map(r => ({ name: r.name, count: r.count }))
+    .sort((a, b) => parseInt(b.name) - parseInt(a.name));
 
   // Helper for formatting downloads (e.g., 8000000 → 8M)
   const formatDownloads = (num) => {
@@ -61,7 +56,7 @@ const Details = () => {
 
         {/* Info */}
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-5xl font-bold text-gray-800 mb-2">
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">
             {singleApp.title}
           </h1>
           <p className="text-gray-500 mb-2">
