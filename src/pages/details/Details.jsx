@@ -1,6 +1,6 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
-import {
+import  {
   BarChart,
   Bar,
   XAxis,
@@ -11,12 +11,20 @@ import {
 import download from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import review from '../../assets/icon-review.png';
+import { addStoredDB } from "../../utilities/addtoDB";
 
 const Details = () => {
   const { id } = useParams();
   const appId = parseInt(id);
   const data = useLoaderData();
   const singleApp = data.find((app) => app.id === appId);
+
+  const installedApp = id => {
+
+    addStoredDB(id);
+
+
+  }
 
   if (!singleApp) {
     return (
@@ -66,9 +74,9 @@ const Details = () => {
             </span>
           </p>
 
-            <div className="flex w-full flex-col">
-                <div className="divider"></div>
-            </div>
+            
+                <div className="divider w-full"></div>
+            
 
           {/* Stats */}
           <div className="flex flex-wrap justify-center md:justify-start gap-20 mb-5">
@@ -91,15 +99,15 @@ const Details = () => {
             </div>
           </div>
 
-          <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md font-semibold shadow-md cursor-pointer">
+          <button onClick={() => installedApp(id)} className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md font-semibold shadow-md cursor-pointer">
             Install Now ({singleApp.size ? `${singleApp.size} MB` : "291 MB"})
           </button>
         </div>
       </div>
 
-      <div className="flex w-full flex-col">
-                <div className="divider"></div>
-            </div>
+      
+                <div className="divider w-full"></div>
+
 
       {/* Ratings Chart */}
       <div className="mt-10 p-6">
@@ -115,9 +123,7 @@ const Details = () => {
           </ResponsiveContainer>
         </div>
       </div>
-<div className="flex w-full flex-col">
-                <div className="divider"></div>
-            </div>
+                <div className="divider w-full"></div>
       {/* Description */}
       <div className="mt-10 p-6">
         <h2 className="text-xl font-semibold mb-4 text-gray-800">Description</h2>

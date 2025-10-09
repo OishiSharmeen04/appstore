@@ -17,9 +17,11 @@ const Navbar = () => {
           <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
             Apps
           </li>
+          <Link to = '/install'>
           <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
             Installation
           </li>
+          </Link>
   </>
 
   return (
