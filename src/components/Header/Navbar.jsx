@@ -2,9 +2,25 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react"; 
 import { FaGithub } from "react-icons/fa";
 import logo from "../../assets/logo.png";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
+  const links = <>
+          
+          <Link to = '/'>
+          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
+            Home
+          </li></Link>
+          
+          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
+            Apps
+          </li>
+          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
+            Installation
+          </li>
+  </>
 
   return (
     <nav className="bg-white shadow-sm max-w-6xl mx-auto">
@@ -17,15 +33,7 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <ul className="hidden md:flex items-center space-x-8 text-sm font-medium">
-          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
-            Home
-          </li>
-          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
-            Apps
-          </li>
-          <li className="text-gray-800 hover:text-purple-600 hover:underline underline-offset-4 cursor-pointer">
-            Installation
-          </li>
+          {links}
         </ul>
 
         {/* Contribute Button */}
@@ -47,15 +55,7 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden relative">
   <ul className="absolute right-0 bg-blue-100 z-[1] mt-3 w-52 p-2 shadow menu menu-sm">
-    <li className="text-gray-800 hover:text-purple-600 cursor-pointer">
-      Home
-    </li>
-    <li className="text-gray-800 hover:text-purple-600 cursor-pointer">
-      Apps
-    </li>
-    <li className="text-gray-800 hover:text-purple-600 cursor-pointer">
-      Installation
-    </li>
+    {links}
   </ul>
 </div>
 

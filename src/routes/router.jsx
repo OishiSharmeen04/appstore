@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/Root/Error/ErrorPage';
 import Home from '../pages/Home/Home';
@@ -14,12 +14,13 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader:() => fetch('appsData.json'),
+        loader:() => fetch('/appsData.json'),
         path: "/",
         Component: Home
       },
       {
-        path: '/details',
+        path: '/details/:id',
+        loader:() => fetch('/appsData.json'),
         Component: Details
       }
     ]

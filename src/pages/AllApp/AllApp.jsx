@@ -1,9 +1,11 @@
 import React from "react";
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const AllApp = ({ singleApp }) => {
-  const { companyName, image, downloads, ratingAvg } = singleApp;
+  const { companyName, image, downloads, ratingAvg, id } = singleApp;
 
   const formatDownloads = (num) => {
     if (num >= 1000000) {
@@ -16,6 +18,7 @@ const AllApp = ({ singleApp }) => {
   };
 
   return (
+    <Link to={`/Details/${id}`}>
     <div
       className="
         card bg-base-100 shadow-sm 
@@ -40,6 +43,7 @@ const AllApp = ({ singleApp }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
