@@ -14,6 +14,11 @@ const Apps = ({data}) => {
                 data.map((singleApp) => <AllApp key={singleApp.id} singleApp={singleApp}></AllApp>)
             }
             </div>
+            <div>
+                <button className="btn btn-primary mt-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:shadow-lg 
+        transform transition-transform duration-300 
+        hover:-translate-y-2 active:scale-95">Show All</button>
+            </div>
         </div>
     );
 };
