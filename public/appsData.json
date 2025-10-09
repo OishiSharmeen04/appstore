@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/200?1",
+    "image": "/public/images/demo-app (1).webp",
     "title": "ChatEase",
     "companyName": "TechNova",
     "description": "A smart AI chat app for instant conversations.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/200?2",
+    "image": "/public/images/demo-app (2).webp",
     "title": "Taskify",
     "companyName": "NextEdge",
     "description": "Manage daily tasks and boost productivity.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/200?3",
+    "image": "/public/images/demo-app (3).webp",
     "title": "NoteWise",
     "companyName": "SmartTech",
     "description": "Organize your notes and ideas with ease.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://picsum.photos/200?4",
+    "image": "/public/images/demo-app (4).webp",
     "title": "FitPulse",
     "companyName": "HealthHub",
     "description": "Track workouts and stay fit everyday.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://picsum.photos/200?5",
+    "image": "/public/images/demo-app (5).webp",
     "title": "PhotoSnap",
     "companyName": "CamZone",
     "description": "Capture and share your best moments.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://picsum.photos/200?6",
+    "image": "/public/images/demo-app (6).webp",
     "title": "FoodMate",
     "companyName": "YumSoft",
     "description": "Find recipes and plan your meals easily.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://picsum.photos/200?7",
+    "image": "/public/images/demo-app (3).webp",
     "title": "Weatherly",
     "companyName": "SkyTech",
     "description": "Real-time weather updates and forecasts.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://picsum.photos/200?8",
+    "image": "/public/images/demo-app (5).webp",
     "title": "TravelGo",
     "companyName": "Wander Inc.",
     "description": "Explore destinations and plan your trips.",
