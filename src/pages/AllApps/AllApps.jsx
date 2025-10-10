@@ -1,37 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 import { useLoaderData, Link } from "react-router-dom";
 import { formatDownloads } from "../../utilities/formatDownloads";
 import AppNotFound from "../Root/AppNotFound/AppNotFound";
+import Loader from "../../loader/Loader";
 
 const AllApps = () => {
   const data = useLoaderData();
   const [search, setSearch] = useState("");
+  const [filteredApps, setFilteredApps] = useState(data);
+  const [loading, setLoading] = useState(false);
 
-  // Flexible case-insensitive search
-  const filteredApps = data.filter((app) => {
-    const searchText = search.toLowerCase();
-    return (
-      app.title.toLowerCase().includes(searchText) ||
-      app.companyName.toLowerCase().includes(searchText) ||
-      app.description.toLowerCase().includes(searchText)
-    );
-  });
+  // 🔍 Filter with loader
+  useEffect(() => {
+    setLoading(true);
 
-  const handleChange = (e) => {
-    setSearch(e.target.value);
-  };
+    const timeout = setTimeout(() => {
+      const searchText = search.toLowerCase();
+      const filtered = data.filter(
+        (app) =>
+          app.title.toLowerCase().includes(searchText) ||
+          app.companyName.toLowerCase().includes(searchText)
+      );
+      setFilteredApps(filtered);
+      setLoading(false);
+    }, 500); // সামান্য delay দিলে UX সুন্দর হয়
 
-  const handleGoBack = () => {
-    setSearch("");
-  };
+    return () => clearTimeout(timeout);
+  }, [search, data]);
 
-  const showNotFound = search.length > 0 && filteredApps.length === 0;
+  const handleChange = (e) => setSearch(e.target.value);
+  const handleGoBack = () => setSearch("");
+
+  const showNotFound = !loading && search.length > 0 && filteredApps.length === 0;
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      {/* Top Section */}
+      {/* 🏷️ Top Section */}
       <div className="max-w-6xl mx-auto text-center mb-10">
         <h1 className="text-4xl font-bold mb-2 text-gray-800">Our All Applications</h1>
         <p className="text-gray-600">
@@ -39,7 +45,7 @@ const AllApps = () => {
         </p>
       </div>
 
-      {/* Search + Count */}
+      {/* 🔍 Search Bar + Count */}
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 mb-6">
         <p className="font-semibold text-gray-700 mb-3 md:mb-0">
           ({filteredApps.length}) Apps Found
@@ -53,11 +59,18 @@ const AllApps = () => {
         />
       </div>
 
-      {/* Apps Grid or Not Found */}
-      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
-        {showNotFound ? (
+      {/* 🧩 Grid Section */}
+      <div className="relative max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+        {loading ? (
+          // 🌀 Loader — পেজের মাঝখানে দেখাবে
+          <div className="col-span-full flex justify-center items-center py-20">
+            <Loader />
+          </div>
+        ) : showNotFound ? (
+          // ❌ যদি কিছু না মেলে
           <AppNotFound searchTerm={search} onGoBack={handleGoBack} />
         ) : (
+          // ✅ Filtered Apps
           filteredApps.map((app) => (
             <Link
               key={app.id}
@@ -66,7 +79,11 @@ const AllApps = () => {
             >
               <div className="p-6 flex flex-col justify-between h-full">
                 <div className="mb-4 rounded-lg overflow-hidden flex items-center justify-center">
-                  <img src={app.image} alt={app.title} className="object-cover w-full h-full" />
+                  <img
+                    src={app.image}
+                    alt={app.title}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
                 <h3 className="text-md font-semibold mb-2 text-gray-800">{app.title}</h3>
                 <div className="flex justify-between items-center text-sm">

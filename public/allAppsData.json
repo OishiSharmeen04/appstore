@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "/public/images/adobe.webp",
-    "title": "Adobe",
+    "title": "Adobe: 🎨 Creative Toolkit",
     "companyName": "Adobe Inc.",
     "description": "This category features highly specialized software tools that empower users to generate, edit, and manipulate visual media, video, and creative digital assets. The functionality ranges from professional-grade production to streamlined social content creation. Core products from companies like Adobe offer a full creative suite for advanced tasks such as detailed photo editing (Photoshop), graphic design (Illustrator), and video production (Premiere Pro). These tools are the industry standard for artists, marketers, and developers. On the softer side, platforms like Pinterest function as powerful visual discovery and inspiration engines, while simplified graphic design apps offer templates for quick content creation. The overarching purpose is to democratize the creation process, providing powerful feature sets that allow users of all technical levels to translate ideas into high-quality digital output for commerce, education, or social media.",
     "size": 250,
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "image": "/public/images/brave.webp",
-    "title": "Brave",
+    "title": "Brave: 🛡️ Browser, Ad-Free",
     "companyName": "Brave Software, Inc.",
     "description": "This category encompasses the fundamental tools required for accessing and navigating the World Wide Web efficiently and securely. Web Browsers, including Chrome, Firefox, Brave, and Opera, serve as the primary client software, interpreting web code to display pages and run complex web applications. Key competitive features include rendering speed, sophisticated tab and bookmark management, and increasingly, integrated privacy enhancements like built-in VPNs and ad-blockers. Search tools, exemplified by DuckDuckGo, specialize in information retrieval, allowing users to query the vast index of web content. A major differentiator in this space is the focus on user privacy, with some search engines explicitly committing to not tracking personal search history. Collectively, these applications are the gateway to the global internet, defining how users consume information, interact with online services, and manage their digital identity and security while browsing.",
     "size": 120,
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "image": "/public/images/chatgpt.png",
-    "title": "ChatGPT",
+    "title": "ChatGPT: 🧠 Ask Anything, Now",
     "companyName": "OpenAI",
     "description": "This is a defining, rapidly evolving category characterized by applications whose primary function is powered by advanced machine learning models, most notably Large Language Models (LLMs). The leading example, ChatGPT, provides a conversational AI interface, allowing users to interact with the model in natural language to perform complex intellectual tasks. These tasks include generating creative content (code, stories, essays), summarizing long texts, translating languages, and brainstorming solutions. The category represents a fundamental leap forward in productivity and knowledge work, acting as a powerful co-pilot that can process, synthesize, and generate information on demand. These tools are distinguished by their ability to understand complex context and provide human-like, nuanced, and adaptive responses, transforming how users search for and manipulate digital information.",
     "size": 60,
@@ -56,7 +56,7 @@
   {
     "id": 4,
     "image": "/public/images/chatmaster.webp",
-    "title": "ChatMaster",
+    "title": "ChatMaster: 👑 Unified Inbox Power",
     "companyName": "TechFlow Apps",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 85,
@@ -74,7 +74,7 @@
   {
     "id": 5,
     "image": "/public/images/chrome.webp",
-    "title": "Chrome",
+    "title": "Chrome: 🚀 Browse at Light Speed",
     "companyName": "Google LLC",
     "description": "This category encompasses the fundamental tools required for accessing and navigating the World Wide Web efficiently and securely. Web Browsers, including Chrome, Firefox, Brave, and Opera, serve as the primary client software, interpreting web code to display pages and run complex web applications. Key competitive features include rendering speed, sophisticated tab and bookmark management, and increasingly, integrated privacy enhancements like built-in VPNs and ad-blockers. Search tools, exemplified by DuckDuckGo, specialize in information retrieval, allowing users to query the vast index of web content. A major differentiator in this space is the focus on user privacy, with some search engines explicitly committing to not tracking personal search history. Collectively, these applications are the gateway to the global internet, defining how users consume information, interact with online services, and manage their digital identity and security while browsing.",
     "size": 150,
@@ -92,7 +92,7 @@
   {
     "id": 6,
     "image": "/public/images/daraz.png",
-    "title": "Daraz",
+    "title": "Daraz: 📦 The Online Mall",
     "companyName": "Alibaba Group",
     "description": "This sector consists of applications that serve as mobile marketplaces and storefronts, facilitating the complete digital process of finding, purchasing, and receiving goods and services. E-commerce marketplaces like Daraz, Temu, and ShopEasy connect vast networks of global sellers with consumers, offering competitive pricing across categories from apparel and electronics to groceries. A primary focus of these apps is user experience, featuring intuitive product discovery, personalized recommendations, secure payment integration, and seamless order tracking. Furthermore, they are logistical powerhouses, managing shipping and fulfillment services. The core value proposition is convenience: allowing consumers to browse and transact 24/7 from anywhere, replacing the need for physical retail trips. These platforms are integral to the massive shift toward mobile-first consumer spending.",
     "size": 90,
@@ -110,7 +110,7 @@
   {
     "id": 7,
     "image": "/public/images/drive.webp",
-    "title": "Drive",
+    "title": "Drive: ☁️ Files, Everywhere",
     "companyName": "Google LLC",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 75,
@@ -128,7 +128,7 @@
   {
     "id": 8,
     "image": "/public/images/duckduckgo.webp",
-    "title": "DuckDuckGo",
+    "title": "DuckDuckGo: 🕵️ Search, No Tracking",
     "companyName": "DuckDuckGo",
     "description": "This category encompasses the fundamental tools required for accessing and navigating the World Wide Web efficiently and securely. Web Browsers, including Chrome, Firefox, Brave, and Opera, serve as the primary client software, interpreting web code to display pages and run complex web applications. Key competitive features include rendering speed, sophisticated tab and bookmark management, and increasingly, integrated privacy enhancements like built-in VPNs and ad-blockers. Search tools, exemplified by DuckDuckGo, specialize in information retrieval, allowing users to query the vast index of web content. A major differentiator in this space is the focus on user privacy, with some search engines explicitly committing to not tracking personal search history. Collectively, these applications are the gateway to the global internet, defining how users consume information, interact with online services, and manage their digital identity and security while browsing.",
     "size": 110,
@@ -146,7 +146,7 @@
   {
     "id": 9,
     "image": "/public/images/duolingo.webp",
-    "title": "Duolingo",
+    "title": "Duolingo: 🦉 Language Level Up",
     "companyName": "Duolingo, Inc.",
     "description": "The applications within this category are singularly focused on improving user knowledge, skills, and proficiency across various subjects through structured, engaging digital lessons. Language Learning apps, such as Duolingo and LearnLang, are a hallmark of this category, utilizing innovative techniques like gamification, bite-sized lessons, and scientifically-proven spaced repetition to maximize retention and conversational fluency. Beyond languages, this category includes apps for STEM subjects, professional certifications, and general encyclopedic knowledge. These tools succeed by making educational content highly accessible, interactive, and adaptive, tailoring the learning path to the individual user’s pace and performance. By offering a comprehensive, portable, and often affordable alternative to traditional classroom or textbook learning, these apps are central to the global movement toward digital, lifelong education.",
     "size": 130,
@@ -164,7 +164,7 @@
   {
     "id": 10,
     "image": "/public/images/excel.webp",
-    "title": "Excel",
+    "title": "Excel: 📊 Data Cruncher",
     "companyName": "Microsoft Corporation",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 200,
@@ -182,7 +182,7 @@
   {
     "id": 11,
     "image": "/public/images/facebook.webp",
-    "title": "Facebook",
+    "title": "Facebook: 🌐 Connect Your World",
     "companyName": "Meta Platforms, Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 180,
@@ -200,7 +200,7 @@
   {
     "id": 12,
     "image": "/public/images/firefox.webp",
-    "title": "Firefox",
+    "title": "Firefox: 🦊 Web, Open & Private",
     "companyName": "Mozilla Foundation",
     "description": "This category encompasses the fundamental tools required for accessing and navigating the World Wide Web efficiently and securely. Web Browsers, including Chrome, Firefox, Brave, and Opera, serve as the primary client software, interpreting web code to display pages and run complex web applications. Key competitive features include rendering speed, sophisticated tab and bookmark management, and increasingly, integrated privacy enhancements like built-in VPNs and ad-blockers. Search tools, exemplified by DuckDuckGo, specialize in information retrieval, allowing users to query the vast index of web content. A major differentiator in this space is the focus on user privacy, with some search engines explicitly committing to not tracking personal search history. Collectively, these applications are the gateway to the global internet, defining how users consume information, interact with online services, and manage their digital identity and security while browsing.",
     "size": 100,
@@ -218,7 +218,7 @@
   {
     "id": 13,
     "image": "/public/images/fitTrack.webp",
-    "title": "FitTrack",
+    "title": "FitTrack: 💪 Track Your Gains",
     "companyName": "Wellness Solutions Co.",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 55,
@@ -236,7 +236,7 @@
   {
     "id": 14,
     "image": "/public/images/foodpanda.webp",
-    "title": "foodpanda",
+    "title": "foodpanda: 🍜 Food, Fast Delivery",
     "companyName": "Delivery Hero",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 115,
@@ -254,7 +254,7 @@
   {
     "id": 15,
     "image": "/public/images/gamezone.webp",
-    "title": "GameZone",
+    "title": "GameZone: 🎮 Gaming Hub Active",
     "companyName": "Global Gaming Studios",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 70,
@@ -272,7 +272,7 @@
   {
     "id": 16,
     "image": "/public/images/instagram.png",
-    "title": "Instagram",
+    "title": "Instagram: ✨ Visual Story Mode",
     "companyName": "Meta Platforms, Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 190,
@@ -290,7 +290,7 @@
   {
     "id": 17,
     "image": "/public/images/learnlang.webp",
-    "title": "LearnLang",
+    "title": "LearnLang: 🗣️ Fluent Fast Track",
     "companyName": "LinguaTech Education",
     "description": "The applications within this category are singularly focused on improving user knowledge, skills, and proficiency across various subjects through structured, engaging digital lessons. Language Learning apps, such as Duolingo and LearnLang, are a hallmark of this category, utilizing innovative techniques like gamification, bite-sized lessons, and scientifically-proven spaced repetition to maximize retention and conversational fluency. Beyond languages, this category includes apps for STEM subjects, professional certifications, and general encyclopedic knowledge. These tools succeed by making educational content highly accessible, interactive, and adaptive, tailoring the learning path to the individual user’s pace and performance. By offering a comprehensive, portable, and often affordable alternative to traditional classroom or textbook learning, these apps are central to the global movement toward digital, lifelong education.",
     "size": 95,
@@ -308,7 +308,7 @@
   {
     "id": 18,
     "image": "/public/images/maps.webp",
-    "title": "Maps",
+    "title": "Maps: 📍 Navigate Smarter",
     "companyName": "Google LLC",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 160,
@@ -326,7 +326,7 @@
   {
     "id": 19,
     "image": "/public/images/messenger.webp",
-    "title": "Messenger",
+    "title": "Messenger: ⚡️ Instant Chat Access",
     "companyName": "Meta Platforms, Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 170,
@@ -344,7 +344,7 @@
   {
     "id": 20,
     "image": "/public/images/msword.webp",
-    "title": "MS Word",
+    "title": "MS Word: 📝 Document. Done",
     "companyName": "Microsoft Corporation",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 220,
@@ -362,7 +362,7 @@
   {
     "id": 21,
     "image": "/public/images/musicflow.webp",
-    "title": "MusicFlow",
+    "title": "MusicFlow: 🎵 Discover Your Vibe",
     "companyName": "RhythmStream Tech",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 90,
@@ -380,7 +380,7 @@
   {
     "id": 22,
     "image": "/public/images/neptune.webp",
-    "title": "Neptune",
+    "title": "Neptune: ⚙️ System Optimizer",
     "companyName": "Aqua Software",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 65,
@@ -398,7 +398,7 @@
   {
     "id": 23,
     "image": "/public/images/netflix.jpg",
-    "title": "Netflix",
+    "title": "Netflix: 🍿 Binge On Demand",
     "companyName": "Netflix, Inc.",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 135,
@@ -416,7 +416,7 @@
   {
     "id": 24,
     "image": "/public/images/notewise.webp",
-    "title": "NoteWise",
+    "title": "NoteWise: ✍️ Capture Every Thought",
     "companyName": "Smart Utility Labs",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 50,
@@ -434,7 +434,7 @@
   {
     "id": 25,
     "image": "/public/images/opera.webp",
-    "title": "Opera",
+    "title": "Opera: ⚡️ Data Saver Browser",
     "companyName": "Opera Norway AS",
     "description": "This category encompasses the fundamental tools required for accessing and navigating the World Wide Web efficiently and securely. Web Browsers, including Chrome, Firefox, Brave, and Opera, serve as the primary client software, interpreting web code to display pages and run complex web applications. Key competitive features include rendering speed, sophisticated tab and bookmark management, and increasingly, integrated privacy enhancements like built-in VPNs and ad-blockers. Search tools, exemplified by DuckDuckGo, specialize in information retrieval, allowing users to query the vast index of web content. A major differentiator in this space is the focus on user privacy, with some search engines explicitly committing to not tracking personal search history. Collectively, these applications are the gateway to the global internet, defining how users consume information, interact with online services, and manage their digital identity and security while browsing.",
     "size": 105,
@@ -452,7 +452,7 @@
   {
     "id": 26,
     "image": "/public/images/pathao.webp",
-    "title": "Pathao",
+    "title": "Pathao: 🛵 Deliver & Ride Local",
     "companyName": "Pathao Limited",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 80,
@@ -470,7 +470,7 @@
   {
     "id": 27,
     "image": "/public/images/pinterest.webp",
-    "title": "Pinterest",
+    "title": "Pinterest: 📌 Idea Pinboard",
     "companyName": "Pinterest, Inc.",
     "description": "This category features highly specialized software tools that empower users to generate, edit, and manipulate visual media, video, and creative digital assets. The functionality ranges from professional-grade production to streamlined social content creation. Core products from companies like Adobe offer a full creative suite for advanced tasks such as detailed photo editing (Photoshop), graphic design (Illustrator), and video production (Premiere Pro). These tools are the industry standard for artists, marketers, and developers. On the softer side, platforms like Pinterest function as powerful visual discovery and inspiration engines, while simplified graphic design apps offer templates for quick content creation. The overarching purpose is to democratize the creation process, providing powerful feature sets that allow users of all technical levels to translate ideas into high-quality digital output for commerce, education, or social media.",
     "size": 140,
@@ -488,7 +488,7 @@
   {
     "id": 28,
     "image": "/public/images/powerpoint.webp",
-    "title": "PowerPoint",
+    "title": "PowerPoint: 💡 Idea to Presentation",
     "companyName": "Microsoft Corporation",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 210,
@@ -506,7 +506,7 @@
   {
     "id": 29,
     "image": "/public/images/shazam.webp",
-    "title": "Shazam",
+    "title": "Shazam: 🎧 What's That Song?",
     "companyName": "Apple Inc.",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 45,
@@ -524,7 +524,7 @@
   {
     "id": 30,
     "image": "/public/images/shopeasy.webp",
-    "title": "ShopEasy",
+    "title": "ShopEasy: 🛒 Checkout Simplified",
     "companyName": "Retail Innovations LLC",
     "description": "This sector consists of applications that serve as mobile marketplaces and storefronts, facilitating the complete digital process of finding, purchasing, and receiving goods and services. E-commerce marketplaces like Daraz, Temu, and ShopEasy connect vast networks of global sellers with consumers, offering competitive pricing across categories from apparel and electronics to groceries. A primary focus of these apps is user experience, featuring intuitive product discovery, personalized recommendations, secure payment integration, and seamless order tracking. Furthermore, they are logistical powerhouses, managing shipping and fulfillment services. The core value proposition is convenience: allowing consumers to browse and transact 24/7 from anywhere, replacing the need for physical retail trips. These platforms are integral to the massive shift toward mobile-first consumer spending.",
     "size": 75,
@@ -542,7 +542,7 @@
   {
     "id": 31,
     "image": "/public/images/snapchat.webp",
-    "title": "Snapchat",
+    "title": "Snapchat: 👻 Moments Disappear",
     "companyName": "Snap Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 165,
@@ -560,7 +560,7 @@
   {
     "id": 32,
     "image": "/public/images/spotify.png",
-    "title": "Spotify",
+    "title": "Spotify: 🎶 Soundtrack Your Life",
     "companyName": "Spotify AB",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 125,
@@ -578,7 +578,7 @@
   {
     "id": 33,
     "image": "/public/images/telegram.webp",
-    "title": "Telegram",
+    "title": "Telegram: 🔒 Privacy on Speed",
     "companyName": "Telegram FZ-LLC",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 95,
@@ -596,7 +596,7 @@
   {
     "id": 34,
     "image": "/public/images/temu.png",
-    "title": "Temu",
+    "title": "Temu: 🛍️ Shop Global, Save",
     "companyName": "PDD Holdings Inc.",
     "description": "This sector consists of applications that serve as mobile marketplaces and storefronts, facilitating the complete digital process of finding, purchasing, and receiving goods and services. E-commerce marketplaces like Daraz, Temu, and ShopEasy connect vast networks of global sellers with consumers, offering competitive pricing across categories from apparel and electronics to groceries. A primary focus of these apps is user experience, featuring intuitive product discovery, personalized recommendations, secure payment integration, and seamless order tracking. Furthermore, they are logistical powerhouses, managing shipping and fulfillment services. The core value proposition is convenience: allowing consumers to browse and transact 24/7 from anywhere, replacing the need for physical retail trips. These platforms are integral to the massive shift toward mobile-first consumer spending.",
     "size": 85,
@@ -614,7 +614,7 @@
   {
     "id": 35,
     "image": "/public/images/threads.webp",
-    "title": "Threads",
+    "title": "Threads: 🗣️ Text Talk Arena",
     "companyName": "Meta Platforms, Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 70,
@@ -632,7 +632,7 @@
   {
     "id": 36,
     "image": "/public/images/tiktok.webp",
-    "title": "TikTok",
+    "title": "TikTok: 🔥 Viral Video Engine",
     "companyName": "ByteDance Ltd.",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 155,
@@ -650,7 +650,7 @@
   {
     "id": 37,
     "image": "/public/images/todolist.webp",
-    "title": "ToDoList",
+    "title": "ToDoList: ✅ Conquer Your Day",
     "companyName": "Productivity Tools Inc.",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 40,
@@ -668,7 +668,7 @@
   {
     "id": 38,
     "image": "/public/images/travelmate.webp",
-    "title": "TravelMate",
+    "title": "TravelMate: ✈️ Adventure Planner",
     "companyName": "Wanderlust Software",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 100,
@@ -686,7 +686,7 @@
   {
     "id": 39,
     "image": "/public/images/trebedit.webp",
-    "title": "Trebedit",
+    "title": "Trebedit: 💻 Code on Mobile",
     "companyName": "CodeWave Tools",
     "description": "The apps in this category are the digital workhorses designed to enhance personal and professional efficiency, organization, and information management. Productivity tools, like MS Word, Excel, PowerPoint, and NoteWise, are focused on the core tasks of creation and editing—enabling users to write documents, analyze data, design presentations, and capture thoughts. These apps replace the physical office suite with feature-rich, collaborative digital equivalents. Utility apps, such as Google Drive for cloud storage and Neptune for email management, provide necessary backend services. They ensure data is securely backed up, synchronized across devices, and easily accessible. The overall goal of this category is to streamline daily workflows, minimize administrative burden, and provide the infrastructure for achieving tasks and managing digital life with greater speed and precision. They transform the mobile device into a powerful organizational hub.",
     "size": 35,
@@ -704,7 +704,7 @@
   {
     "id": 40,
     "image": "/public/images/twitter.webp",
-    "title": "Twitter (X)",
+    "title": "Twitter (X): 📰 Real-Time World Pulse",
     "companyName": "X Corp.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 130,
@@ -722,7 +722,7 @@
   {
     "id": 41,
     "image": "/public/images/uber.webp",
-    "title": "Uber",
+    "title": "Uber: 🚗 Tap. Ride. Go.",
     "companyName": "Uber Technologies, Inc.",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 110,
@@ -740,7 +740,7 @@
   {
     "id": 42,
     "image": "/public/images/vivavideo.webp",
-    "title": "VivaVideo",
+    "title": "VivaVideo: 🎬 Edit Your Story",
     "companyName": "QuVideo Inc.",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 90,
@@ -758,7 +758,7 @@
   {
     "id": 43,
     "image": "/public/images/weatherpro.webp",
-    "title": "WeatherPro",
+    "title": "WeatherPro: ☀️ Forecast: Precision",
     "companyName": "Forecast Dynamics",
     "description": "The applications here are designed to support and streamline various practical aspects of daily life, covering personal health, local services, and transportation logistics. Travel and Navigation apps like Google Maps, Uber, and Pathao provide essential real-time services, including dynamic route guidance, traffic updates, and on-demand ride-sharing or delivery services. Services like foodpanda focus on meal delivery, while WeatherPro provides essential environmental information. Health & Fitness apps like FitTrack help users monitor and manage their physical activity, exercise routines, and wellness goals. This diverse category is unified by its focus on providing contextual, timely information and logistical assistance to solve everyday problems, making urban and personal life more convenient, efficient, and better organized.",
     "size": 45,
@@ -776,7 +776,7 @@
   {
     "id": 44,
     "image": "/public/images/whatsapp.webp",
-    "title": "WhatsApp",
+    "title": "WhatsApp: 💬 Chat, Encrypted",
     "companyName": "Meta Platforms, Inc.",
     "description": "This essential category covers applications dedicated to connecting people and facilitating real-time personal or public interaction across vast digital networks. Communication apps, such as WhatsApp, Telegram, and Messenger, primarily focus on direct, private exchanges, offering encrypted text messaging, high-quality voice calls, and video calls. They serve as the modern, internet-based replacement for traditional phone services and SMS. Social Networking apps, including Facebook, Instagram, and Twitter (X), concentrate on building profiles, sharing content (photos, videos, and short text updates), and fostering a sense of digital community. These platforms are crucial for content discovery, news consumption, and personal branding, driving digital culture and the global public sphere. The shared purpose of this category is to bridge geographical distance, enabling users to maintain social ties, engage in group discussions, and consume personalized media feeds instantly. They have become indispensable tools for both private intimacy and broad public engagement.",
     "size": 145,
@@ -794,7 +794,7 @@
   {
     "id": 45,
     "image": "/public/images/youtube.png",
-    "title": "YouTube",
+    "title": "YouTube: 📺 Stream Everything",
     "companyName": "Google LLC",
     "description": "Apps in this sector are devoted entirely to providing leisure, enjoyment, and on-demand digital content consumption—a space where users primarily go to relax and be entertained. Video Streaming giants like YouTube and Netflix offer immense libraries of long-form and short-form content, leveraging powerful algorithms to personalize recommendations. TikTok specializes in brief, user-generated videos, defining the vertical video format trend. Music & Audio Streaming platforms such as Spotify and MusicFlow provide immediate access to millions of songs, albums, and podcasts, focusing on curated playlists and high-fidelity sound. The category also includes specific utilities like Shazam for music identification and video editors like VivaVideo. These apps have fundamentally replaced traditional media delivery, offering a shift towards a global, personalized, and constant stream of engaging, ad-supported, or subscription-based entertainment.",
     "size": 175,

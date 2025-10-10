@@ -4,6 +4,8 @@ import { getInstalledApp, removeStoredDB } from "../../utilities/addtoDB";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
 import { formatDownloads } from "../../utilities/formatDownloads";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const InstalledApps = () => {
   const [appList, setAppList] = useState([]);
@@ -17,9 +19,6 @@ const InstalledApps = () => {
   }, [data]);
 
   const handleUninstall = (id) => {
-    const confirmed = window.confirm("Are you sure you want to uninstall?");
-    if (!confirmed) return;
-
     // 1️⃣ Remove from UI
     const updated = appList.filter((app) => app.id !== id);
     setAppList(updated);
@@ -27,12 +26,19 @@ const InstalledApps = () => {
     // 2️⃣ Remove from localStorage
     removeStoredDB(id);
 
-    // 3️⃣ Optional alert
-    alert("App uninstalled successfully!");
+    // 3️⃣ Toastify message
+    toast.success("App uninstalled successfully!", {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      theme: "colored",
+    });
   };
 
   return (
     <div className="max-w-6xl mx-auto bg-gray-100 min-h-screen p-10">
+      <ToastContainer /> {/* 🔔 Toast container add kora holo */}
+
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-800">

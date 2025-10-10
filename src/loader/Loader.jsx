@@ -1,11 +1,15 @@
 
 import React from "react";
-import logo from "../assets/logo.png"; 
+import logo from "../assets/logo.png";
 
 const Loader = () => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
-      <img src={logo} alt="Logo" className="" style={{ animation: "spin 5s linear infinite" }} />
+    <div className="absolute inset-0 flex items-center justify-center z-30">
+      <img
+        src={logo}
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
     </div>
   );
 };
