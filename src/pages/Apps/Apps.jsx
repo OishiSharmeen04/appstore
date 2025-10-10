@@ -1,5 +1,6 @@
 
 import AllApp from '../AllApp/AllApp';
+import { Link } from 'react-router-dom';
 
 const Apps = ({data}) => {
     
@@ -15,9 +16,11 @@ const Apps = ({data}) => {
             }
             </div>
             <div>
-                <button className="btn btn-primary mt-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:shadow-lg 
-        transform transition-transform duration-300 
-        hover:-translate-y-2 active:scale-95">Show All</button>
+                <Link to = '/apps'>
+                    <button className="btn btn-primary mt-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:shadow-lg transform transition-transform duration-300 hover:-translate-y-2 active:scale-95">
+                        Show All
+                    </button>
+                </Link>
             </div>
         </div>
     );

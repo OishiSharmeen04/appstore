@@ -67,10 +67,16 @@ const Navbar = () => {
         </ul>
 
         {/* Contribute Button */}
-        <button className="hidden md:flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-2 rounded-md font-medium shadow transition cursor-pointer">
+        <a
+          href="https://github.com/OishiSharmeen04"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="hidden md:flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-2 rounded-md font-medium cursor-pointer">
           <FaGithub className="text-white text-lg" />
           Contribute
-        </button>
+          </button>
+        </a>
 
         {/* Mobile Menu Toggle */}
         <button
