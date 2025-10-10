@@ -7,31 +7,31 @@ import Details from "../pages/details/Details";
 import InstalledApps from "../pages/installedAPps/InstalledApps";
 import AppNotFound from "../pages/Root/AppNotFound/AppNotFound";
 import AllApps from "../pages/AllApps/AllApps";
+import { loadApps, loadAllApps } from "../loader/loader";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />, 
-    
     children: [
       {
         index: true, 
-        loader: () => fetch("/appsData.json"),
+        loader: loadApps, // centralized loader
         element: <Home />,
       },
       {
         path: "/apps",
-        loader: () => fetch("/appsData.json"),
+        loader: loadAllApps, // centralized loader
         element: <AllApps/>,
       },
       {
         path: "/install",
-        loader: () => fetch("/appsData.json"),
+        loader: loadApps, // centralized loader
         element: <InstalledApps />,
       },
       {
         path: "/details/:id",
-        loader: () => fetch("/appsData.json"),
+        loader: loadApps, // centralized loader
         element: <Details />,
       },
       {

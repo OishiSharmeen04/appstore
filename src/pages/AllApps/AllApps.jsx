@@ -5,7 +5,7 @@ import { useLoaderData, Link } from "react-router-dom";
 import { formatDownloads } from "../../utilities/formatDownloads";
 
 const AllApps = () => {
-  const data = useLoaderData(); // data from loader (appsData.json)
+  const data = useLoaderData();
   const [search, setSearch] = useState("");
 
   // Filter by search

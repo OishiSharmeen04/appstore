@@ -1,0 +1,326 @@
+[
+    {
+    "id": 1,
+    "image": "/public/images/chatgpt.png",
+    "title": "ChatGPT: Your AI Conversation Buddy",
+    "companyName": "OpenAI",
+    "description": "ChatGPT, developed by OpenAI, is an AI-powered conversational assistant that helps users interact naturally and efficiently with artificial intelligence. It answers questions, generates content, explains complex topics, and assists with learning, work, or creative projects. Its intuitive interface makes it accessible to beginners and professionals alike. ChatGPT continuously improves through updates, offering accurate and context-aware responses. It supports multiple languages and ensures privacy, making it a reliable tool for global users. From research and problem-solving to brainstorming and casual conversation, ChatGPT empowers millions to leverage AI for productivity, creativity, and seamless communication.",
+    "size": 120,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/public/images/instagram.png",
+    "title": "Instagram: Capture Your Life",
+    "companyName": "Meta Platforms",
+    "description": "Instagram, developed by Meta Platforms, is a popular social media platform for sharing photos, videos, and stories. Users can follow friends, celebrities, and brands to stay updated with their content, engage through likes, comments, and shares, and interact via direct messages. Instagram offers creative tools such as filters, Reels, and editing options to enhance content. Businesses and creators use Instagram to build audiences, promote products, and connect with followers. Continuous updates, privacy controls, and multi-language support make Instagram a global platform that empowers users to express themselves, discover content, and maintain social connections.",
+    "size": 95,
+    "reviews": 740,
+    "ratingAvg": 4.0,
+    "downloads": 38000000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/public/images/tiktok.png",
+    "title": "TikTok: Snap, Share, Shine",
+    "companyName": "ByteDance",
+    "description": "TikTok, developed by ByteDance, is a global social media platform that allows users to create, watch, and share short-form videos. It provides creative tools, effects, and music integration to make content engaging and entertaining. Users can follow trends, participate in challenges, and interact through likes, comments, and shares. TikTok’s personalized algorithm ensures users discover relevant content tailored to their interests. Creators and businesses leverage TikTok to reach audiences, showcase creativity, and grow communities. With continuous updates, privacy controls, and multi-language support, TikTok empowers millions worldwide to create, share, and enjoy short video content seamlessly.",
+    "size": 80,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 39000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/public/images/facebook.png",
+    "title": "Facebook: Social World",
+    "companyName": "Meta Platforms",
+    "description": "Facebook, developed by Meta Platforms, is a global social media platform connecting people everywhere. It allows users to share updates, photos, videos, and life events with friends, family, and communities. Users can join groups, follow pages, participate in events, and engage through likes, comments, and shares. Businesses and creators leverage Facebook to reach audiences and build communities. With continuous updates, messaging, live streaming, and content discovery, the platform remains dynamic and relevant. Privacy controls and multi-language support ensure secure, global usability. Facebook empowers millions worldwide to connect, share experiences, and maintain meaningful social interactions.",
+    "size": 150,
+    "reviews": 1030,
+    "ratingAvg": 4.8,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/public/images/whatsapp.png",
+    "title": "WhatsApp: Instant Messaging Hub",
+    "companyName": "Meta Platforms",
+    "description": "WhatsApp, developed by Meta Platforms, is a leading instant messaging platform connecting people worldwide. Users can send text messages, voice notes, images, videos, and documents instantly, and make voice or video calls with ease. It supports individual chats, group conversations, and business communication, making it versatile for personal and professional use. WhatsApp ensures secure messaging through end-to-end encryption and offers multi-language support for global accessibility. Its simple interface, continuous updates, and rich feature set empower millions of users to communicate efficiently, stay connected with friends and family, and manage interactions seamlessly across devices.",
+    "size": 200,
+    "reviews": 1580,
+    "ratingAvg": 4.6,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/public/images/threads.png",
+    "title": "Threads: Connect & Share",
+    "companyName": "Meta Platforms",
+    "description": "Threads, developed by Meta Platforms, is a social networking platform for sharing thoughts, updates, and creative content. It allows users to follow friends, engage with communities, and participate in discussions through posts, comments, and shares. Threads encourages real-time interaction, content discovery, and connection-building while offering privacy controls and multi-language support for global accessibility. Users can explore diverse content, express themselves, and maintain social connections easily. Continuous updates and intuitive features make Threads dynamic and relevant. The platform empowers millions worldwide to engage with others, share ideas, and participate actively in vibrant online communities.",
+    "size": 90,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/public/images/temu.png",
+    "title": "Temu: Shop Smart, Live Better",
+    "companyName": "PDD Holdings",
+    "description": "Temu, developed by PDD Holdings, is a mobile shopping platform designed to offer great deals and a seamless shopping experience. Users can browse a wide variety of products, compare prices, and make purchases confidently from their devices. The app provides personalized recommendations, discounts, and promotions to enhance user experience. Temu supports secure payment methods, multi-language accessibility, and privacy controls to ensure safe and convenient shopping worldwide. Its intuitive interface, continuous updates, and global reach empower millions of users to discover products, save money, and shop efficiently, making Temu a reliable companion for modern e-commerce.",
+    "size": 130,
+    "reviews": 980,
+    "ratingAvg": 4.1,
+    "downloads": 26000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/public/images/youtube.png",
+    "title": "YouTube: Stream and Share",
+    "companyName": "Google LLC",
+    "description": "YouTube, developed by Google, is a global video-sharing platform where users can watch, upload, and share videos across countless categories. It allows creators to reach audiences, build communities, and monetize content. Users can subscribe to channels, like, comment, and share videos while exploring trending topics, tutorials, entertainment, and educational content. YouTube continuously updates its features with live streaming, Shorts, and recommendations for personalized viewing. Multi-language support and privacy controls make it accessible worldwide. By empowering creators and viewers alike, YouTube enables millions of users globally to connect, learn, entertain, and express themselves through video content.",
+    "size": 200,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/150",
+    "title": "ChatMaster",
+    "companyName": "TechCorp",
+    "description": "A smart chat application with AI integration.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/public/images/fittrack.png",
+    "title": "FitTrack: Your Personal Fitness Companion",
+    "companyName": "HealthPlus",
+    "description": "Track your workouts, monitor your progress, and achieve your fitness goals with FitTrack. Stay motivated with insights, challenges, and community support.",
+    "size": 60,
+    "reviews": 850,
+    "ratingAvg": 4.2,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/public/images/photosnap.png",
+    "title": "PhotoSnap: Capture & Edit Photos",
+    "companyName": "PixelWorks",
+    "description": "Capture stunning photos and edit them instantly with PhotoSnap. Apply filters, crop, adjust colors, and share effortlessly.",
+    "size": 120,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/public/images/notewise.png",
+    "title": "NoteWise: Organize Your Notes",
+    "companyName": "SmartApps",
+    "description": "Organize your notes, ideas, and tasks efficiently with NoteWise. Sync across devices and never lose important information.",
+    "size": 25,
+    "reviews": 540,
+    "ratingAvg": 4.0,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/public/images/gamezone.png",
+    "title": "GameZone: Play Exciting Games",
+    "companyName": "FunLabs",
+    "description": "Play exciting games, challenge friends, and compete in tournaments with GameZone. Endless fun at your fingertips.",
+    "size": 300,
+    "reviews": 4100,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2210 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/public/images/travelmate.png",
+    "title": "TravelMate: Plan Your Trips",
+    "companyName": "Wanderlust Inc",
+    "description": "Plan your trips, explore new destinations, and keep travel memories with TravelMate. Get guides, tips, and local insights.",
+    "size": 80,
+    "reviews": 970,
+    "ratingAvg": 4.3,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/public/images/musicflow.png",
+    "title": "MusicFlow: Stream Your Favorite Songs",
+    "companyName": "TuneSoft",
+    "description": "Stream unlimited music, create playlists, and discover new artists with MusicFlow. Enjoy high-quality audio anytime, anywhere.",
+    "size": 150,
+    "reviews": 3400,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2140 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/public/images/shopeasy.png",
+    "title": "ShopEasy: Online Shopping Simplified",
+    "companyName": "RetailHub",
+    "description": "Shop for your favorite products online with ease. Fast checkout, reliable delivery, and great discounts on ShopEasy.",
+    "size": 95,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/public/images/learnlang.png",
+    "title": "LearnLang: Language Learning App",
+    "companyName": "EduTech",
+    "description": "Learn new languages with interactive lessons, quizzes, and real-time practice. Improve your vocabulary, speaking, and comprehension skills.",
+    "size": 55,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "/public/images/weatherpro.png",
+    "title": "WeatherPro: Accurate Forecasts",
+    "companyName": "ClimateTech",
+    "description": "Get real-time weather updates and forecasts. Plan your day, week, or travel with confidence using WeatherPro.",
+    "size": 40,
+    "reviews": 1200,
+    "ratingAvg": 4.2,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 620 }
+    ]
+  }
+]

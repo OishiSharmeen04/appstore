@@ -1,21 +1,25 @@
 import React from 'react';
 import Navbar from '../../components/Header/Navbar';
-import { Outlet, useRouteError} from 'react-router';
+import { Outlet, useRouteError, useNavigation } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import ErrorPage from './Error/ErrorPage';
-
+import Loader from '../../../src/loader/Loader'
 
 const Root = () => {
-
     const error = useRouteError();
+    const navigation = useNavigation();
 
     return (
         <div>
-            <Navbar></Navbar>
-            <main className="flex-grow">
+            <Navbar />
+            
+            {navigation.state === "loading" && <Loader />}
+
+            <main className="flex-grow relative">
                 {error ? <ErrorPage error={error} /> : <Outlet />}
             </main>
-            <Footer></Footer>
+
+            <Footer />
         </div>
     );
 };
