@@ -5,6 +5,7 @@ import ErrorPage from "../pages/Root/Error/ErrorPage";
 import Home from "../pages/Home/Home";
 import Details from "../pages/details/Details";
 import InstalledApps from "../pages/installedAPps/InstalledApps";
+import AppNotFound from "../pages/Root/AppNotFound/AppNotFound";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <ErrorPage />,
+      },
+      {
+        path: "ku",
+        element: <AppNotFound />,
       }
     ],
   },
