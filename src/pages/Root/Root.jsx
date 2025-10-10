@@ -10,7 +10,7 @@ const Root = () => {
     const navigation = useNavigation();
 
     return (
-        <div>
+        <div className='max-w-6xl mx-auto'>
             <Navbar />
             
             {navigation.state === "loading" && <Loader />}

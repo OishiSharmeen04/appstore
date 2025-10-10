@@ -5,7 +5,7 @@ import appstore from '../../assets/appstore.png'
 
 const Banner = () => {
     return (
-        <div className="bg-gray-100 max-w-6xl mx-auto p-5 sm:px-10 sm:pt-10 sm:pb-0 flex flex-col items-center pb-0">
+        <div className="bg-gray-100 p-5 sm:px-10 sm:pt-10 sm:pb-0 flex flex-col items-center pb-0">
   <div className="w-full flex flex-col items-center">
     {/* Banner */}
     <div className="order-1 sm:order-3 w-full pb-0">

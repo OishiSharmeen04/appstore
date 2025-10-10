@@ -5,9 +5,9 @@ import ErrorPage from "../pages/Root/Error/ErrorPage";
 import Home from "../pages/Home/Home";
 import Details from "../pages/details/Details";
 import InstalledApps from "../pages/installedAPps/InstalledApps";
-import AppNotFound from "../pages/Root/AppNotFound/AppNotFound";
 import AllApps from "../pages/AllApps/AllApps";
-import { loadApps, loadAllApps } from "../loader/loader";
+import { loadApps } from "../loader/loadApps";
+import { loadAllApps } from "../loader/loadAllApps";
 
 const router = createBrowserRouter([
   {
@@ -16,31 +16,27 @@ const router = createBrowserRouter([
     children: [
       {
         index: true, 
-        loader: loadApps, // centralized loader
+        loader: loadApps,
         element: <Home />,
       },
       {
         path: "/apps",
-        loader: loadAllApps, // centralized loader
+        loader: loadAllApps,
         element: <AllApps/>,
       },
       {
         path: "/install",
-        loader: loadApps, // centralized loader
+        loader: loadAllApps,
         element: <InstalledApps />,
       },
       {
         path: "/details/:id",
-        loader: loadApps, // centralized loader
+        loader: loadAllApps,
         element: <Details />,
       },
       {
         path: "*",
         element: <ErrorPage />,
-      },
-      {
-        path: "ku",
-        element: <AppNotFound />,
       }
     ],
   },

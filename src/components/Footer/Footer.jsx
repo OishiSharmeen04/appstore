@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png"
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#001931] text-white p-10 flex flex-col gap-6 max-w-6xl mx-auto">
+    <footer className="w-full bg-[#001931] text-white p-10 flex flex-col gap-6">
   {/* Top Section */}
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
     <aside className="flex items-center gap-3">

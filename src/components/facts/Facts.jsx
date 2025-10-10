@@ -3,7 +3,7 @@ import React from 'react';
 const Facts = () => {
     return (
 
-        <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] max-w-6xl mx-auto text-white p-10'>
+        <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white p-10'>
             <h1 className='font-extrabold text-4xl text-center'>Trusted by Millions, Built for You</h1>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
