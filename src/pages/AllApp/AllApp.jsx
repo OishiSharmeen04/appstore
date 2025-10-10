@@ -2,20 +2,13 @@ import React from "react";
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { formatDownloads } from "../../utilities/formatDownloads";
 
 
 const AllApp = ({ singleApp }) => {
   const { title, companyName, image, downloads, ratingAvg, id } = singleApp;
 
-  const formatDownloads = (num) => {
-    if (num >= 1000000) {
-      return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
-    } else if (num >= 1000) {
-      return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
-    } else {
-      return num.toString();
-    }
-  };
+  
 
   return (
     <Link to={`/Details/${id}`}>

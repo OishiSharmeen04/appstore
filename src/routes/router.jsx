@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home";
 import Details from "../pages/details/Details";
 import InstalledApps from "../pages/installedAPps/InstalledApps";
 import AppNotFound from "../pages/Root/AppNotFound/AppNotFound";
+import AllApps from "../pages/AllApps/AllApps";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
         index: true, 
         loader: () => fetch("/appsData.json"),
         element: <Home />,
+      },
+      {
+        path: "/apps",
+        loader: () => fetch("/appsData.json"),
+        element: <AllApps/>,
       },
       {
         path: "/install",

@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { getInstalledApp, removeStoredDB } from "../../utilities/addtoDB";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
+import { formatDownloads } from "../../utilities/formatDownloads";
 
 const InstalledApps = () => {
   const [appList, setAppList] = useState([]);
@@ -72,10 +73,9 @@ const InstalledApps = () => {
                   <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
                     <span className="flex items-center gap-1 text-green-500">
                       <img src={download} alt="downloads" className="w-4 h-4" />
-                      {app.downloads >= 1000000
-                        ? (app.downloads / 1000000).toFixed(1) + "M"
-                        : app.downloads}
+                      {formatDownloads(app.downloads)}
                     </span>
+
                     <span className="flex items-center gap-1 text-orange-500">
                       <img src={star} alt="rating" className="w-4 h-4" />
                       {app.ratingAvg}
