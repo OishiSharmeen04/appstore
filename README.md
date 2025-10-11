@@ -1,16 +1,26 @@
-# React + Vite
+# 🛍️ AppStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   A modern, responsive web app store built with **React** and **Tailwind CSS**, designed for discovering, installing, and managing applications seamlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Technologies Used
 
-## React Compiler
+-   **React.js** – Component-based architecture for a dynamic UI  
+-   **React Router** – Client-side routing for smooth navigation  
+-   **Tailwind CSS** – Utility-first styling for fast and responsive design  
+-   **Recharts** – Interactive chart visualization for app statistics  
+-   **LocalStorage API** – Persist app installation data locally  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   Fully **responsive design** for mobile, tablet, and desktop  
+-   **Search, install, and uninstall apps** with instant updates  
+-   **Sorting and filtering** of apps by name, size, rating, or downloads  
+-   **Interactive charts** to visualize app ratings and download trends  
+-   **Local storage** ensures installed apps persist across sessions  
+
+---
+
