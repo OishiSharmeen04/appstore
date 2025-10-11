@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 3,
     "image": "/public/images/chatgpt.png",
     "title": "ChatGPT: Your AI Conversation Buddy",
     "companyName": "OpenAI",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 16,
     "image": "/public/images/instagram.png",
     "title": "Instagram: Capture Your Life",
     "companyName": "Meta Platforms",
@@ -36,97 +36,98 @@
     ]
   },
   {
-    "id": 3,
-    "image": "/public/images/tiktok.png",
-    "title": "TikTok: Snap, Share, Shine",
-    "companyName": "ByteDance",
-    "description": "TikTok, developed by ByteDance, is a global social media platform that allows users to create, watch, and share short-form videos. It provides creative tools, effects, and music integration to make content engaging and entertaining. Users can follow trends, participate in challenges, and interact through likes, comments, and shares. TikTok’s personalized algorithm ensures users discover relevant content tailored to their interests. Creators and businesses leverage TikTok to reach audiences, showcase creativity, and grow communities. With continuous updates, privacy controls, and multi-language support, TikTok empowers millions worldwide to create, share, and enjoy short video content seamlessly.",
-    "size": 80,
-    "reviews": 890,
-    "ratingAvg": 4.2,
-    "downloads": 39000000,
+    "id": 18,
+    "image": "/public/images/maps.webp",
+    "title": "Maps: Navigate Smarter",
+    "companyName": "Google LLC",
+    "description": "Google Maps is a powerful web-based mapping service developed by Google that provides detailed geographical information, navigation, and location-based services. It allows users to explore streets, cities, and countries through interactive maps, satellite imagery, and Street View. With real-time GPS navigation, traffic updates, and route planning, it helps users reach destinations efficiently by car, foot, bicycle, or public transport. Users can discover businesses, restaurants, landmarks, and attractions, read reviews, and get contact information. Google Maps also supports offline maps, custom lists, and personalized recommendations, making it an essential tool for travel, commuting, and exploring the world with ease.",
+    "size": 160,
+    "reviews": 120000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 900 }
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 60000 }
     ]
   },
   {
-    "id": 4,
-    "image": "/public/images/facebook.png",
-    "title": "Facebook: Social World",
-    "companyName": "Meta Platforms",
-    "description": "Facebook, developed by Meta Platforms, is a global social media platform connecting people everywhere. It allows users to share updates, photos, videos, and life events with friends, family, and communities. Users can join groups, follow pages, participate in events, and engage through likes, comments, and shares. Businesses and creators leverage Facebook to reach audiences and build communities. With continuous updates, messaging, live streaming, and content discovery, the platform remains dynamic and relevant. Privacy controls and multi-language support ensure secure, global usability. Facebook empowers millions worldwide to connect, share experiences, and maintain meaningful social interactions.",
-    "size": 150,
-    "reviews": 1030,
-    "ratingAvg": 4.8,
-    "downloads": 30000000,
+    "id": 23,
+    "image": "/public/images/netflix.jpg",
+    "title": "Netflix: Binge On Demand",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a leading global streaming service that offers a wide variety of movies, TV shows, documentaries, and original content across multiple genres. With an easy-to-use platform, it allows users to watch content on-demand across devices, including smartphones, tablets, smart TVs, and computers. Netflix uses personalized recommendations and algorithms to suggest shows and movies based on viewing habits. It supports multiple languages, subtitles, and offline downloads, making entertainment accessible worldwide. Known for producing award-winning original series and films, Netflix has revolutionized how people consume media, providing a convenient, flexible, and engaging entertainment experience for millions of subscribers.",
+    "size": 135,
+    "reviews": 85000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 1500 }
+      { "name": "1 star", "count": 8500 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 24500 },
+      { "name": "5 star", "count": 30000 }
     ]
   },
   {
-    "id": 5,
-    "image": "/public/images/whatsapp.png",
-    "title": "WhatsApp: Instant Messaging Hub",
-    "companyName": "Meta Platforms",
-    "description": "WhatsApp, developed by Meta Platforms, is a leading instant messaging platform connecting people worldwide. Users can send text messages, voice notes, images, videos, and documents instantly, and make voice or video calls with ease. It supports individual chats, group conversations, and business communication, making it versatile for personal and professional use. WhatsApp ensures secure messaging through end-to-end encryption and offers multi-language support for global accessibility. Its simple interface, continuous updates, and rich feature set empower millions of users to communicate efficiently, stay connected with friends and family, and manage interactions seamlessly across devices.",
-    "size": 200,
-    "reviews": 1580,
+    "id": 22,
+    "image": "/public/images/neptune.webp",
+    "title": "Neptune: System Optimizer",
+    "companyName": "Codinism Inc.",
+    "description": "Neptune is an educational app developed by Programming Hero as a companion to the Complete Web Development with Jhankar Mahbub course. It provides students with seamless access to course materials on Android, iOS, and Windows devices. The app features a user-friendly interface, making navigation simple and intuitive. Learners can stream or download course videos for offline viewing, enabling study without internet connectivity. Neptune ensures a consistent learning experience across devices, helping students follow lessons, practice exercises, and track progress efficiently. By combining accessibility, convenience, and interactive features, Neptune enhances the web development learning journey for aspiring programmers.",
+    "size": 65,
+    "reviews": 2800,
     "ratingAvg": 4.6,
-    "downloads": 27000000,
+    "downloads": 3000000,
     "ratings": [
       { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "/public/images/pinterest.webp",
+    "title": "Pinterest: Idea Pinboard",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual discovery and bookmarking platform that allows users to explore, save, and share ideas through images, videos, and links. It serves as a hub for inspiration across categories like fashion, home decor, recipes, travel, DIY projects, and more. Users can create personalized boards to organize content, follow other users, and discover trending ideas. Pinterest’s smart recommendation system suggests content tailored to individual interests. Available on web and mobile devices, it supports collaboration and idea sharing. By combining creativity, organization, and social interaction, Pinterest empowers millions of users worldwide to find inspiration and bring their ideas to life.",
+    "size": 140,
+    "reviews": 60000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "id": 37,
+    "image": "/public/images/todolist.webp",
+    "title": "ToDoList: Conquer Your Day",
+    "companyName": "Productivity Tools Inc.",
+    "description": "ToDoList by AbstractSpoon is a free, open-source task management software for Windows, designed to help individuals and teams organize and track tasks efficiently. It offers a hierarchical task structure, allowing users to break down complex projects into manageable subtasks. The software includes features such as Gantt charts, mind maps, Kanban boards, workload views, and week planners, providing multiple perspectives on task management. Users can customize task attributes, set reminders, and utilize filters and sorting options to prioritize tasks effectively. ToDoList also supports data export and import, enhancing its versatility for various project management needs.",
+    "size": 40,
+    "reviews": 3500,
+    "ratingAvg": 4.6,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1000 },
       { "name": "5 star", "count": 2000 }
     ]
   },
+  
   {
-    "id": 6,
-    "image": "/public/images/threads.png",
-    "title": "Threads: Connect & Share",
-    "companyName": "Meta Platforms",
-    "description": "Threads, developed by Meta Platforms, is a social networking platform for sharing thoughts, updates, and creative content. It allows users to follow friends, engage with communities, and participate in discussions through posts, comments, and shares. Threads encourages real-time interaction, content discovery, and connection-building while offering privacy controls and multi-language support for global accessibility. Users can explore diverse content, express themselves, and maintain social connections easily. Continuous updates and intuitive features make Threads dynamic and relevant. The platform empowers millions worldwide to engage with others, share ideas, and participate actively in vibrant online communities.",
-    "size": 90,
-    "reviews": 720,
-    "ratingAvg": 4.4,
-    "downloads": 23000000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 700 }
-    ]
-  },
-  {
-    "id": 7,
-    "image": "/public/images/temu.png",
-    "title": "Temu: Shop Smart, Live Better",
-    "companyName": "PDD Holdings",
-    "description": "Temu, developed by PDD Holdings, is a mobile shopping platform designed to offer great deals and a seamless shopping experience. Users can browse a wide variety of products, compare prices, and make purchases confidently from their devices. The app provides personalized recommendations, discounts, and promotions to enhance user experience. Temu supports secure payment methods, multi-language accessibility, and privacy controls to ensure safe and convenient shopping worldwide. Its intuitive interface, continuous updates, and global reach empower millions of users to discover products, save money, and shop efficiently, making Temu a reliable companion for modern e-commerce.",
-    "size": 130,
-    "reviews": 980,
-    "ratingAvg": 4.1,
-    "downloads": 26000000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1100 }
-    ]
-  },
-  {
-    "id": 8,
+    "id": 45,
     "image": "/public/images/youtube.png",
     "title": "YouTube: Stream and Share",
     "companyName": "Google LLC",

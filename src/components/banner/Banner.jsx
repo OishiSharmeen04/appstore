@@ -18,7 +18,7 @@ const Banner = () => {
 
     {/* Text */}
     <div className="order-2 sm:order-1 text-center mb-5 sm:mb-10">
-      <h1 className="hidden lg:inline-block text-6xl font-extrabold mb-5">
+      <h1 className="text-4xl lg:text-6xl  font-extrabold mb-5">
         We Build<br className='hidden lg:inline-block' />
         <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
           Productive

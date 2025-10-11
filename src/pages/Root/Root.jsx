@@ -3,7 +3,8 @@ import Navbar from '../../components/Header/Navbar';
 import { Outlet, useRouteError, useNavigation } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import ErrorPage from './Error/ErrorPage';
-import Loader from '../../../src/loader/Loader'
+import Loader from '../../../src/loader/Loader';
+
 
 const Root = () => {
     const error = useRouteError();

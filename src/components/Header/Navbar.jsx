@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm">
       <div className="px-4 py-2 flex justify-between items-center">
-        {/* Logo and name */}
+        
         <Link to="/" className="flex items-center space-x-2 cursor-pointer">
           <img src={logo} alt="logo" className="w-8 h-8" />
           <h1 className="text-sm font-bold text-purple-600 hover:text-purple-700">
@@ -61,12 +61,12 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        {/* Desktop Links */}
+        
         <ul className="hidden md:flex items-center space-x-8 text-sm font-medium">
           {links}
         </ul>
 
-        {/* Contribute Button */}
+        
         <a
           href="https://github.com/OishiSharmeen04"
           target="_blank"
@@ -87,7 +87,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       {open && (
         <div className="md:hidden relative">
           <ul className="absolute right-0 bg-blue-100 z-[1] mt-3 w-52 p-2 shadow menu menu-sm">

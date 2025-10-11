@@ -12,7 +12,7 @@ const AllApps = () => {
   const [filteredApps, setFilteredApps] = useState(data);
   const [loading, setLoading] = useState(false);
 
-  // 🔍 Filter with loader
+  
   useEffect(() => {
     setLoading(true);
 
@@ -25,7 +25,7 @@ const AllApps = () => {
       );
       setFilteredApps(filtered);
       setLoading(false);
-    }, 500); // সামান্য delay দিলে UX সুন্দর হয়
+    }, 500);
 
     return () => clearTimeout(timeout);
   }, [search, data]);
@@ -37,7 +37,7 @@ const AllApps = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      {/* 🏷️ Top Section */}
+      
       <div className="max-w-6xl mx-auto text-center mb-10">
         <h1 className="text-4xl font-bold mb-2 text-gray-800">Our All Applications</h1>
         <p className="text-gray-600">
@@ -45,7 +45,7 @@ const AllApps = () => {
         </p>
       </div>
 
-      {/* 🔍 Search Bar + Count */}
+      
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 mb-6">
         <p className="font-semibold text-gray-700 mb-3 md:mb-0">
           ({filteredApps.length}) Apps Found
@@ -53,24 +53,24 @@ const AllApps = () => {
         <input
           type="text"
           placeholder="🔍 Search Apps"
-          className="input input-bordered w-full md:w-80 focus:ring-2 focus:ring-purple-400 rounded-md p-2"
+          className="input w-full md:w-80 rounded-md p-2"
           value={search}
           onChange={handleChange}
         />
       </div>
 
-      {/* 🧩 Grid Section */}
+      
       <div className="relative max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         {loading ? (
-          // 🌀 Loader — পেজের মাঝখানে দেখাবে
+          
           <div className="col-span-full flex justify-center items-center py-20">
             <Loader />
           </div>
         ) : showNotFound ? (
-          // ❌ যদি কিছু না মেলে
+          
           <AppNotFound searchTerm={search} onGoBack={handleGoBack} />
         ) : (
-          // ✅ Filtered Apps
+          
           filteredApps.map((app) => (
             <Link
               key={app.id}

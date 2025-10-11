@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getInstalledApp, removeStoredDB } from "../../utilities/addtoDB";
 import download from "../../assets/icon-downloads.png";
@@ -8,8 +8,9 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const InstalledApps = () => {
-  const [appList, setAppList] = useState([]);
   const data = useLoaderData();
+  const [appList, setAppList] = useState([]);
+  const [sortOrder, setSortOrder] = useState("");
 
   useEffect(() => {
     const AppData = getInstalledApp();
@@ -18,28 +19,41 @@ const InstalledApps = () => {
     setAppList(myAppList);
   }, [data]);
 
+  
+  const handleSortChange = (e) => {
+    const order = e.target.value;
+    setSortOrder(order);
+
+    if (!order) return;
+
+    const sorted = [...appList].sort((a, b) => {
+      if (order === "high-to-low") return b.size - a.size;
+      else return a.size - b.size;
+    });
+
+    setAppList(sorted);
+  };
+
+  
   const handleUninstall = (id) => {
-    // 1️⃣ Remove from UI
     const updated = appList.filter((app) => app.id !== id);
     setAppList(updated);
 
-    // 2️⃣ Remove from localStorage
     removeStoredDB(id);
 
-    // 3️⃣ Toastify message
-    toast.success("App uninstalled successfully!", {
-      position: "top-center",
-      autoClose: 2000,
-      hideProgressBar: false,
-      theme: "colored",
-    });
+    toast.success("App uninstalled successfully!");
   };
 
   return (
     <div className="max-w-6xl mx-auto bg-gray-100 min-h-screen p-10">
-      <ToastContainer /> {/* 🔔 Toast container add kora holo */}
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        theme="colored"
+      />
 
-      {/* Header */}
+      
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-800">
           Your Installed Apps
@@ -49,14 +63,26 @@ const InstalledApps = () => {
         </p>
       </div>
 
-      {/* Count */}
-      <div className="flex justify-between items-center mb-6">
+      
+      <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
         <h2 className="font-bold text-2xl text-gray-700">
           {appList.length} Apps Found
         </h2>
+
+        <select
+          value={sortOrder}
+          onChange={handleSortChange}
+          className="select w-60"
+        >
+          <option disabled value="">
+            Sort by Downloads
+          </option>
+          <option value="high-to-low">High → Low</option>
+          <option value="low-to-high">Low → High</option>
+        </select>
       </div>
 
-      {/* App Cards */}
+      
       <div className="flex flex-col gap-4">
         {appList.length > 0 ? (
           appList.map((app) => (
@@ -81,7 +107,6 @@ const InstalledApps = () => {
                       <img src={download} alt="downloads" className="w-4 h-4" />
                       {formatDownloads(app.downloads)}
                     </span>
-
                     <span className="flex items-center gap-1 text-orange-500">
                       <img src={star} alt="rating" className="w-4 h-4" />
                       {app.ratingAvg}
