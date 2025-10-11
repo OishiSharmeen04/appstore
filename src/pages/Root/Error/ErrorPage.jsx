@@ -12,7 +12,7 @@ const ErrorPage = ({ error }) => {
       </p>
       <Link
         to="/"
-        className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:shadow-lg transform transition-transform duration-300 hover:-translate-y-2 text-white px-6 py-2 rounded-md shadow-md"
+        className="btn btn-primary mt-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:shadow-lg transform transition-transform duration-300 hover:-translate-y-2 active:scale-95"
       >
         Go Back!
       </Link>

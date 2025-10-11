@@ -84,52 +84,58 @@ const InstalledApps = () => {
 
       
       <div className="flex flex-col gap-4">
-        {appList.length > 0 ? (
-          appList.map((app) => (
-            <div
-              key={app.id}
-              className="flex justify-between items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition"
-            >
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gray-200 rounded-md overflow-hidden flex items-center justify-center">
-                  <img
-                    src={app.image}
-                    alt={app.title}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    {app.title}
-                  </h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
-                    <span className="flex items-center gap-1 text-green-500">
-                      <img src={download} alt="downloads" className="w-4 h-4" />
-                      {formatDownloads(app.downloads)}
-                    </span>
-                    <span className="flex items-center gap-1 text-orange-500">
-                      <img src={star} alt="rating" className="w-4 h-4" />
-                      {app.ratingAvg}
-                    </span>
-                    <span className="text-gray-600">{app.size} MB</span>
-                  </div>
-                </div>
-              </div>
+  {appList.length > 0 ? (
+    appList.map((app) => (
+      <div
+        key={app.id}
+        className="flex flex-col sm:flex-row justify-between items-start sm:items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition duration-200"
+      >
+        
+        <div className="flex items-center gap-4 w-full sm:w-auto">
+          
+          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-200 rounded-md overflow-hidden flex items-center justify-center">
+            <img
+              src={app.image}
+              alt={app.title}
+              className="object-cover w-full h-full"
+            />
+          </div>
 
-              <button
-                onClick={() => handleUninstall(app.id)}
-                className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md font-semibold"
-              >
-                Uninstall
-              </button>
+                  <div className="flex flex-col mt-2 sm:mt-0">
+            <h3 className="text-base sm:text-md font-semibold text-gray-800">
+              {app.title}
+            </h3>
+
+            <div className="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-gray-500 mt-1">
+              <span className="flex items-center gap-1 text-green-500">
+                <img src={download} alt="downloads" className="w-4 h-4" />
+                {formatDownloads(app.downloads)}
+              </span>
+
+              <span className="flex items-center gap-1 text-orange-500">
+                <img src={star} alt="rating" className="w-4 h-4" />
+                {app.ratingAvg}
+              </span>
+
+              <span className="text-gray-600">{app.size} MB</span>
             </div>
-          ))
-        ) : (
-          <p className="text-gray-500 text-center mt-10">
-            No apps installed yet.
-          </p>
-        )}
+          </div>
+        </div>
+
+        
+        <button
+          onClick={() => handleUninstall(app.id)}
+          className="mt-3 sm:mt-0 bg-green-500 hover:bg-green-600 text-white px-4 sm:px-5 py-2 rounded-md font-semibold text-sm sm:text-base w-full sm:w-auto"
+        >
+          Uninstall
+        </button>
       </div>
+    ))
+  ) : (
+    <p className="text-gray-500 text-center py-4">No apps installed.</p>
+  )}
+</div>
+
     </div>
   );
 };

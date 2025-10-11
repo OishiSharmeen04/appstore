@@ -18,11 +18,12 @@ const Banner = () => {
 
     {/* Text */}
     <div className="order-2 sm:order-1 text-center mb-5 sm:mb-10">
-      <h1 className="text-4xl lg:text-6xl  font-extrabold mb-5">
-        We Build<br className='hidden lg:inline-block' />
-        <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+      <h1 className="text-3xl lg:text-6xl font-extrabold mb-5">
+        We Build
+        <br className='hidden lg:inline-block' />
+        <span className="text-purple-600">
           Productive
-        </span> Apps
+          </span> Apps
       </h1>
       <p className="text-sm sm:text-base md:text-lg">
         At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br className='hidden lg:inline-block'/>
@@ -35,8 +36,7 @@ const Banner = () => {
       <a
         href="https://play.google.com/store/apps/"
         target="_blank"
-        className="btn btn-outline btn-primary  flex items-center justify-center hover:shadow-lg 
-        transform transition-transform duration-300 hover:-translate-y-2 rounded-md"
+        className="btn bg-yellow-50 hover:shadow-lg transform transition-transform duration-300 hover:-translate-y-2 active:scale-95"
       >
         <img src={playstore} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
         <span className="ml-2">Google Play</span>
@@ -44,8 +44,7 @@ const Banner = () => {
       <a
         href="https://www.apple.com/app-store/"
         target="_blank"
-        className="btn btn-outline btn-primary flex items-center justify-center hover:shadow-lg 
-        transform transition-transform duration-300 hover:-translate-y-2 rounded-md"
+        className="btn bg-yellow-50 hover:shadow-lg transform transition-transform duration-300 hover:-translate-y-2 active:scale-95"
       >
         <img src={appstore} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
         <span className="ml-2">App Store</span>

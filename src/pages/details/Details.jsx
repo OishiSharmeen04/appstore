@@ -57,94 +57,121 @@ const Details = () => {
     .sort((a, b) => parseInt(b.name) - parseInt(a.name));
 
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-gray-100">
-      
-      <ToastContainer
-        position="top-center"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        pauseOnHover
-        draggable
-        theme="colored"
+    <div className="max-w-6xl mx-auto p-4 sm:p-6 bg-gray-100">
+  
+  <ToastContainer
+    position="top-center"
+    autoClose={2000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    pauseOnHover
+    draggable
+    theme="colored"
+  />
+
+  
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 p-4 sm:p-6">
+    
+    <div className="flex-shrink-0 w-full sm:w-auto flex justify-center">
+      <img
+        src={singleApp.image}
+        alt={singleApp.title}
+        className="w-48 h-48 md:w-64 md:h-64 lg:w-84 lg:h-84 object-contain rounded-lg"
       />
-
-      
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-8 p-6">
-        <div className="flex-shrink-0">
-          <img src={singleApp.image} alt={singleApp.title} className="w-84 h-84 object-contain" />
-        </div>
-
-        <div className="flex-1 text-center md:text-left">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">{singleApp.title}</h1>
-          <p className="text-gray-500 mb-2">
-            Developed by <span className="text-blue-600 font-medium">{singleApp.companyName || "unknown.dev"}</span>
-          </p>
-
-          <div className="divider w-full"></div>
-
-          
-          <div className="flex flex-wrap justify-center md:justify-start gap-20 mb-5">
-            <div className="flex flex-col items-start gap-2 text-green-600">
-              <img src={download} alt="" />
-              <span className="text-gray-500 text-sm">Downloads</span>
-              <span className="font-extrabold text-4xl">{formatDownloads(singleApp.downloads)}</span>
-            </div>
-            <div className="flex flex-col items-start gap-2 text-orange-500">
-              <img src={star} alt="" />
-              <span className="text-gray-500 text-sm">Avg Rating</span>
-              <span className="font-extrabold text-4xl">{singleApp.ratingAvg}</span>
-            </div>
-            <div className="flex flex-col items-start gap-2 text-purple-600">
-              <img src={review} alt="" />
-              <span className="text-gray-500 text-sm">Reviews</span>
-              <span className="font-extrabold text-4xl">{formatDownloads(singleApp.reviews || 54000)}</span>
-            </div>
-          </div>
-
-          
-          <button
-            onClick={() => handleInstall(appId)}
-            className={`${
-              clicked ? "bg-green-400" : "bg-green-500 hover:bg-green-600"
-            } text-white px-5 py-2 rounded-md font-semibold shadow-md`}
-          >
-            {clicked
-              ? "Installed"
-              : `Install Now (${singleApp.size ? `${singleApp.size} MB` : "291 MB"})`}
-          </button>
-        </div>
-      </div>
-
-      <div className="divider w-full"></div>
-
-      
-      <div className="mt-10 p-6">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800">Ratings</h2>
-        <div className="w-full h-64">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={ratingsData} layout="vertical">
-              <XAxis type="number" />
-              <YAxis type="category" dataKey="name" />
-              <Tooltip />
-              <Bar dataKey="count" fill="#f97316" />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
-
-      <div className="divider w-full"></div>
-
-      
-      <div className="mt-10 p-6">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800">Description</h2>
-        <p className="text-gray-600 leading-relaxed whitespace-pre-line">
-          {singleApp.description ||
-            `This app helps users stay focused and productive with reminders, timers, and progress tracking.`}
-        </p>
-      </div>
     </div>
+
+    
+    <div className="flex-1 text-center md:text-left">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+        {singleApp.title}
+      </h1>
+      <p className="text-gray-500 mb-2 text-sm sm:text-base">
+        Developed by{" "}
+        <span className="text-blue-600 font-medium">
+          {singleApp.companyName || "unknown.dev"}
+        </span>
+      </p>
+
+      <div className="divider w-full my-3"></div>
+
+      <div className="flex flex-wrap justify-center md:justify-start gap-10 sm:gap-16 md:gap-20 mb-5">
+        <div className="flex flex-col items-center md:items-start gap-2 text-green-600">
+          <img src={download} alt="downloads" className="w-6 h-6" />
+          <span className="text-gray-500 text-xs sm:text-sm">Downloads</span>
+          <span className="font-extrabold text-2xl sm:text-3xl md:text-4xl">
+            {formatDownloads(singleApp.downloads)}
+          </span>
+        </div>
+
+        <div className="flex flex-col items-center md:items-start gap-2 text-orange-500">
+          <img src={star} alt="rating" className="w-6 h-6" />
+          <span className="text-gray-500 text-xs sm:text-sm">Avg Rating</span>
+          <span className="font-extrabold text-2xl sm:text-3xl md:text-4xl">
+            {singleApp.ratingAvg}
+          </span>
+        </div>
+
+        <div className="flex flex-col items-center md:items-start gap-2 text-purple-600">
+          <img src={review} alt="reviews" className="w-6 h-6" />
+          <span className="text-gray-500 text-xs sm:text-sm">Reviews</span>
+          <span className="font-extrabold text-2xl sm:text-3xl md:text-4xl">
+            {formatDownloads(singleApp.reviews || 54000)}
+          </span>
+        </div>
+      </div>
+
+      
+      <button
+        onClick={() => handleInstall(appId)}
+        className={`${
+          clicked ? "bg-green-400" : "bg-green-500 hover:bg-green-600"
+        } text-white px-4 sm:px-5 py-2 sm:py-3 rounded-md font-semibold shadow-md w-full sm:w-auto`}
+      >
+        {clicked
+          ? "Installed"
+          : `Install Now (${singleApp.size ? `${singleApp.size} MB` : "291 MB"})`}
+      </button>
+    </div>
+  </div>
+
+  <div className="divider w-full my-8"></div>
+
+  
+  <div className="mt-6 sm:mt-10 p-4 sm:p-6">
+    <h2 className="text-lg sm:text-xl font-semibold mb-4 text-gray-800">
+      Ratings
+    </h2>
+    <div className="w-full h-64 sm:h-72 md:h-80">
+  <ResponsiveContainer width="100%" height="100%">
+    <BarChart 
+      data={ratingsData} 
+      layout="vertical"
+      barCategoryGap="25%"   
+      barSize={30}           
+    >
+      <XAxis type="number" />
+      <YAxis type="category" dataKey="name" />
+      <Tooltip />
+      <Bar dataKey="count" fill="#f97316" />
+    </BarChart>
+  </ResponsiveContainer>
+</div>
+  </div>
+
+  <div className="divider w-full my-8"></div>
+
+  
+  <div className="mt-6 sm:mt-10 p-4 sm:p-6">
+    <h2 className="text-lg sm:text-xl font-semibold mb-4 text-gray-800">
+      Description
+    </h2>
+    <p className="text-gray-600 text-justify leading-relaxed whitespace-pre-line text-sm sm:text-base">
+      {singleApp.description ||
+        `This app helps users stay focused and productive with reminders, timers, and progress tracking.`}
+    </p>
+  </div>
+</div>
   );
 };
 

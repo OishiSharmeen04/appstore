@@ -4,38 +4,36 @@ import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { formatDownloads } from "../../utilities/formatDownloads";
 
-
 const AllApp = ({ singleApp }) => {
-  const { title, companyName, image, downloads, ratingAvg, id } = singleApp;
-
-  
+  const { title, image, downloads, ratingAvg, id } = singleApp;
 
   return (
-    <Link to={`/Details/${id}`}>
-    <div
-      className="
-        card bg-base-100 shadow-sm 
-        hover:shadow-lg 
-        transform transition-transform duration-300 
-        hover:-translate-y-2
-      "
+    <Link
+      to={`/details/${id}`}
+      className="card bg-white shadow-sm hover:shadow-lg transition-transform transform hover:-translate-y-2 rounded-xl overflow-hidden"
     >
-      <figure className="p-4">
-        <img
-          src={image}
-          alt={companyName}
-          className="object-cover"
-        />
-      </figure>
-      <div className="card-body">
-        <h2 className="card-title text-lg font-semibold">{title}</h2>
+      <div className="p-2 lg:p-6 flex flex-col justify-between h-full">
+        <div className="mb-4 rounded-lg overflow-hidden flex items-center justify-center bg-gray-50">
+          <img
+            src={image}
+            alt={title}
+            className="object-cover w-full h-full"
+          />
+        </div>
 
-        <div className="card-actions justify-between mt-2">
-          <div className="badge badge-outline bg-green-100 text-green-600"><IoMdDownload />{formatDownloads(downloads)}</div>
-          <div className="badge badge-outline bg-orange-100 text-orange-600"><FaStar />{ratingAvg}</div>
+        <h3 className="text-sm lg:text-lg font-semibold mb-2 text-gray-800 text-start">
+          {title}
+        </h3>
+
+        <div className="flex justify-between items-center text-sm">
+          <span className="flex items-center gap-1 bg-green-100 text-green-600 px-2 py-1 rounded">
+            <IoMdDownload /> {formatDownloads(downloads)}
+          </span>
+          <span className="flex items-center gap-1 bg-orange-100 text-orange-600 px-2 py-1 rounded">
+            <FaStar /> {ratingAvg}
+          </span>
         </div>
       </div>
-    </div>
     </Link>
   );
 };

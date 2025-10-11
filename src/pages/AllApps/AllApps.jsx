@@ -60,7 +60,7 @@ const AllApps = () => {
       </div>
 
       
-      <div className="relative max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+      <div className="relative max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 lg:gap-10 px-4">
         {loading ? (
           
           <div className="col-span-full flex justify-center items-center py-20">
@@ -77,7 +77,7 @@ const AllApps = () => {
               to={`/details/${app.id}`}
               className="card bg-white shadow-sm hover:shadow-lg transition-transform transform hover:-translate-y-2 rounded-xl overflow-hidden"
             >
-              <div className="p-6 flex flex-col justify-between h-full">
+              <div className="p-2 lg:p-6 flex flex-col justify-between h-full">
                 <div className="mb-4 rounded-lg overflow-hidden flex items-center justify-center">
                   <img
                     src={app.image}
